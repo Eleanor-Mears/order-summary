@@ -17,8 +17,8 @@ body {
     background-color: rgb(205, 216, 253);
     font-family: 'Spartan', sans-serif;
     max-width: 450px;
-    min-height: 100vh; 
-    margin: 20% auto;
+    height: 100vh; 
+    margin: auto;
     text-align: center;
 }
 
@@ -28,6 +28,7 @@ section {
     border-radius: 15px;
     height: 700px;
     box-shadow: 3px 3px 5px gray; 
+    transform: scale(0.8);
 }
 
 .order img.hero {
